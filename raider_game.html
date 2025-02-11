@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--Elijah Goglin, Spring 2024, CIS231, Cairn University-->
+<!--File that displays html code for project which includes the title, Killcount, and game instructions-->
+<html lang="en">
+<head>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.js" integrity="sha512-TU9AWtV5uUZPX8dbBAH8NQF1tSdigPRRT82vllAQ1Ke28puiqLA6ZVKxtUGlgrH6yWFnkKy+sE6luNEGH9ar0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Includes the p5.collide2D addon library -->
+    <script defer src="https://unpkg.com/p5.collide2d"></script>
+    
+    
+    <!--<script src="p5.play.js"></script> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="raider_game.js"></script>
+    <title>Knights vs Zombies</title>
+</head>
+<body>
+    <p>Kills: </p>
+    <div id="Count">
+
+
+    </div>
+
+<script>
+
+// game instructions
+window.alert("Welcome to Knight vs Zombies. Zombies will respawn each time you kill 3. To attack press spacebar. To heal from attacks, press TAB. You can only heal during combat. To move right press D. Do not move too far past a zombie or you will have to restart!");
+// display killcount
+let Count = document.getElementById("Count") ;
+
+
+
+
+</script>
+    
+</body>
+</html>
